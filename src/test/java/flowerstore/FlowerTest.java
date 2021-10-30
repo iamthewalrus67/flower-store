@@ -61,6 +61,6 @@ class FlowerTest {
 
     @Test
     void testToString() {
-        assertEquals("Flower(price=10, sepalLength=5.0, color=[127, 0, 0], flowerType=CHAMOMILE)", flower.toString());
+        assertEquals("Flower(price=10.0, sepalLength=5.0, color=[127, 0, 0], flowerType=CHAMOMILE)", flower.toString());
     }
 }
