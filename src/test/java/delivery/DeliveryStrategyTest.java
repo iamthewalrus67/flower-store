@@ -24,7 +24,7 @@ class DeliveryStrategyTest {
 
     @AfterEach
     void tearDown() {
-        System.setOut(System.out);;
+        System.setOut(System.out);
     }
 
     @Test
