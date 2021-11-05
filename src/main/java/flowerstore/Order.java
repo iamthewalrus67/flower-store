@@ -8,7 +8,6 @@ import payment.PaymentStrategy;
 import user.Status;
 import user.User;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -16,13 +15,13 @@ import java.util.List;
 @Getter @Setter
 public class Order {
     private LinkedList<Item> items;
-    private List<User> users;
+    private LinkedList<User> users;
     private PaymentStrategy paymentStrategy;
     private DeliveryStrategy deliveryStrategy;
 
     public Order() {
         items = new LinkedList<>();
-        users = new ArrayList<>();
+        users = new LinkedList<>();
     }
 
     public void setPaymentStrategy(PaymentStrategy paymentStrategy) {
